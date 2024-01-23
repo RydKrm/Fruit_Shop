@@ -1,0 +1,123 @@
+@font-face{
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.font-roboto{
+    font-family: roboto;
+}
+@font-face{
+    font-family: "robotoslab";
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+.font-robotoslab{
+    font-family: robotoslab;
+}
+@font-face{
+    font-family: "bebas";
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+.font-bebas{
+    font-family: bebas;
+}
+@font-face{
+    font-family: "lora";
+    src: url(../fonts/Lora-Medium.ttf);
+}
+.font-lora{
+    font-family: lora;
+}
+@font-face{
+    font-family: "merriweather";
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+.font-merri{
+    font-family: merriweather;
+}
+@font-face{
+    font-family: "nato";
+    src: url(../fonts/NotoSans-Regular.ttf);
+}
+.font-nato{
+    font-family: nato;
+}
+@font-face{
+    font-family: "raleway";
+    src: url(../fonts/Raleway-Regular.ttf);
+} 
+.font-raleway{
+    font-family: ralway;
+}
+
+.clr-red{
+    color: #dc3545;
+}
+.clr-black{
+    color: black;
+    opacity: 0.7;
+}
+.clr-green{
+    color: #ffc107;
+}
+.clr-blue{
+    color: #ffc107;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.hide-display{
+    display: none;
+}
+li{
+    text-decoration: none;
+}
+
+.sm-font-1{
+    font-size: 14px;
+}
+.sm-font-2{
+    font-size: 16px;
+}
+.sm-font-3{
+    font-size: 20px;
+}
+.md-font-1{
+    font-size: 25px;
+}
+.md-font-2{
+    font-size: 35px;
+}
+.md-font-3{
+    font-size: 40px;
+}
+
+.lg-font-1{
+    font-size: 45px;
+}
+.lg-font-2{
+    font-size: 50px;
+} 
+.lg-font-3{
+    font-size: 55px;
+}
+
+.xl-font-1{
+    font-size: 80px;
+}
+.xl-font-2{
+    font-size: 90px;
+} 
+.xl-font-3{
+    font-size: 100px;
+}
+
+.deep-opacity{
+    opacity: 1;
+}
+
+.text-opacity{
+    opacity: 0.7;
+}
+.btn-radius-none{
+    border-radius: 0px;
+}

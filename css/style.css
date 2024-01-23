@@ -1,0 +1,100 @@
+
+
+.carousel-item{
+    height: 500px;
+}
+.carousel-img-1{
+    background: url('../img/slider/slider01.jpg');
+    background-size: cover;
+} 
+.carousel-img-2{
+    background: url('../img/slider/slider02.jpg');
+    background-size: cover;
+} 
+.carousel-img-3{
+    
+    background: url('../img/slider/slider03.jpg');
+    background-size: cover;
+} 
+
+.carousel-overlay{
+     background-color: blue;
+}
+
+
+/*   Our item card    */
+.item-card {
+    font-family: roboto;
+}
+
+.card-hover:hover{
+    box-shadow:5px 8px 20px gray;
+}
+
+/* sidelist start */
+
+.side-list{
+    list-style: none;
+}
+.side-list li{
+    list-style: none;
+}
+
+/* About List items */
+
+.about-list li{
+    text-decoration: none;
+}
+
+/* ##################################### */
+/* Our service pages  */
+#service-showcase{
+    background-image: url(../img/slider/slider03.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    min-height: 610px;
+    background-attachment: fixed;
+    
+}
+.inner-service-showcase{
+    background: rgba(21, 37, 131, 0.555);
+    /* opacity: 0.5; */
+    min-height: 610px;
+    /* color: darkblue; */
+}
+
+.carousel-img-ser-1{
+    background: url('../img/slider/slider01.jpg');
+    background-size: cover;
+} 
+.carousel-img-ser-2{
+    background: url('../img/slider/slider02.jpg');
+    background-size: cover;
+} 
+
+.item-card{
+    /* border-top: 2px solid darkgray; */
+}
+@media(min-width:992px){
+.carsoul-size{
+  /* width: 550px; */
+  height: 450px;
+}
+}
+
+.icon-size{
+    /* height: 60px;
+    width: 40px; */
+    font-size: 70px;
+    /* color: black; */
+} 
+.service-card:hover{
+    box-shadow:1px 2px 12px gray;
+}
+.red-border{
+    border-bottom: 2px solid #dc3545;
+}
+.service-card:hover{
+    color:#dc3545;
+    transition: 1s;
+}
